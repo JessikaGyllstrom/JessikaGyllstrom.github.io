@@ -40,6 +40,9 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
 }
+.footer-top-icons a:hover {
+  text-decoration: none;
+}
 .footer-top-icons i:hover {
   @include iconhover;
 }
@@ -51,7 +54,5 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.footer a {
-  color: $blackish;
-}
+
 

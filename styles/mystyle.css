@@ -1587,6 +1587,10 @@ footer {
   margin-right: 5px;
 }
 
+.footer-top-icons a:hover {
+  text-decoration: none;
+}
+
 .footer-top-icons i:hover {
   color: #4ac7c1;
   -webkit-transform: rotate(360deg);
@@ -1606,10 +1610,6 @@ footer {
   font-weight: 200;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.footer a {
-  color: #141414;
 }
 
 .education-container {
