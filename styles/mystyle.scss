@@ -1,0 +1,35 @@
+@use 'fonts';
+@import 'fonts';
+@import 'colors';
+@import 'mixins';
+@import 'header';
+@import 'main';
+@import 'about';
+@import 'skills';
+@import 'websites';
+@import 'layoutgrid';
+@import 'artgrid';
+@import 'footer';
+@import 'education';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+    color: $white;
+    line-height: 1.5;
+}
+html {
+    height: 100%;
+}
+html,
+  body {
+    scroll-behavior: smooth;
+} 
+body {
+    background-color: $blackish;
+    width: 100%;
+}

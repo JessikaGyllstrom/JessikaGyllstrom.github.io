@@ -1,0 +1,68 @@
+@use 'mixins';
+
+.education-container {
+  @include containerpadd-md;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.education__titlebox {
+    @include titlepadd-lg;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.education__titlebox h2 {
+    @include title;  
+}   
+.education {
+    @include tealshadow-s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+    margin-top: 30px;
+}
+.education__first, 
+.education__last  {
+    display: flex;
+    flex-direction: column;
+}
+.education__icon {
+    display: flex;
+    justify-content: center;
+}
+.education__programs, 
+.education__courses {
+    display: flex;
+    justify-content: center;
+}
+.education__programs, 
+.education__courses h5 {
+    @include titlepadd-lg;
+}
+.education {
+    h6 {
+        font-weight: 200;
+    }
+    i {
+        font-size: 50px;
+        margin-top: 15px;
+    }
+}
+.education__items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media screen and (min-width: 1174px) {
+    .education {
+        flex-direction: row;
+        width: 60%;
+        flex-wrap: wrap;
+    }
+}
+
