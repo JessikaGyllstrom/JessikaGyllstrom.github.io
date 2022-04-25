@@ -460,6 +460,11 @@ nav img:hover {
     margin-right: 20px;
   }
 }
+@media screen and (min-width: 1374px) {
+  .card {
+    width: 65%;
+  }
+}
 .about-container {
   padding: 60px 40px 60px 40px;
   display: -webkit-box;
